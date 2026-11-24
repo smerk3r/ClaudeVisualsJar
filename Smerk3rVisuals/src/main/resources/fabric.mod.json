@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "smerk3rvisuals",
+  "version": "${version}",
+  "name": "Smerk3rVisuals",
+  "description": "A clean visual GUI client for Minecraft 1.21.11.",
+  "authors": ["smerk3r"],
+  "contact": {
+    "sources": "https://github.com/smerk3r/ClaudeVisualsJar/tree/main/Smerk3rVisuals"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.smerk3r.visuals.Smerk3rVisuals"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
